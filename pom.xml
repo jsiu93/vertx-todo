@@ -5,6 +5,47 @@
   <version>0.0.1-SNAPSHOT</version>
   
   
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/io.vertx/vertx-core -->
+	<dependency>
+	    <groupId>io.vertx</groupId>
+	    <artifactId>vertx-core</artifactId>
+	    <version>3.5.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.vertx/vertx-web -->
+	<dependency>
+	    <groupId>io.vertx</groupId>
+	    <artifactId>vertx-web</artifactId>
+	    <version>3.5.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.0</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.vertx/vertx-redis-client -->
+	<dependency>
+	    <groupId>io.vertx</groupId>
+	    <artifactId>vertx-redis-client</artifactId>
+	    <version>3.5.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>fastjson</artifactId>
+	    <version>1.2.47</version>
+	</dependency>
+	
+
+	
+	
+  	
+  </dependencies>
+  
+  
   <build>
         <plugins>
             <!-- compiler插件, 设定JDK版本 -->
